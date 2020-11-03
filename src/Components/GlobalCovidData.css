@@ -1,0 +1,28 @@
+.GlobalCovidData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top:20px;
+  }
+  
+  .GlobalCovidDataCard {
+    height: 100px;
+    width: 200px;
+    font-size: 13px;
+    color: #f7f7f7;
+    text-align: center;
+    background-color: rgb(77, 135, 243);
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    /* padding:30px; */
+    padding-top: 30px;
+    border-radius:8px;
+    border: 1px solid transparent;
+    box-shadow: 4px 10px 40px 12px rgba(255,255,255,0.75);
+  }
+  .GlobalCovidDataTextStyling{
+    font-size: 23px;
+    color:white;
+  }

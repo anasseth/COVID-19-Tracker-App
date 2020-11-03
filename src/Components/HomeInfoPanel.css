@@ -1,0 +1,84 @@
+.DisplayText {
+    margin-top: 50px;
+    padding-left: 100px;
+    color: white;
+    font-size: 23px;
+    text-align: left;
+    /* font-family: sans-serif; */
+  }
+  
+  .DisplayTextLarge {
+    font-size: 45px;
+    font-weight: 600px;
+  }
+  
+  .DisplayTextLargeColor {
+    color: white;
+    height:100px;
+    width: auto;
+    padding:3px;
+    background-color: purple;
+  }
+  
+  .DisplayTextSmall {
+    font-size: 13px;
+    /* color:rgb(75, 72, 72) */
+    color: white
+  }
+  
+  .LearnMore, .WatchVideo, .GetWellSoon {
+    /* padding:15px; */
+    padding: 15px 35px;
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 40px;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .LearnMore {
+   color: darkblue;
+    background-color: white;
+    border-color: transparent;
+  }
+  
+  .WatchVideo {
+    /* border-color: purple; */
+    color: white;
+    background-color: transparent;
+    border-color: rgb(243, 152, 255);
+  }
+  
+  
+  .GlobalData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top:20px;
+  }
+  
+  .GlobalCard {
+    height: 100px;
+    width: 200px;
+    font-size: 13px;
+    color: #f7f7f7;
+    font-weight:500;
+    text-align: center;
+    background-color: rgba(77, 135, 243,0.7);
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    /* padding:30px; */
+    padding-top: 30px;
+    border-radius:8px;
+    border: 1px solid transparent;
+    box-shadow: 4px 10px 40px 12px rgba(255,255,255,0.8);
+  }
+  .GlobalDataTextStyling{
+    font-size: 20px;
+    
+    color:white;
+  }

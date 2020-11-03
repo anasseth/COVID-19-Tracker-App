@@ -1,4 +1,29 @@
-.App {
+body {
+  background: url('./back.jpg');
+  background-size: cover;
+  /* background-repeat:  */
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(121, 75, 143);
+  outline: 3px solid white;
+}
+.hide{
+  display:none ;
+}
+.LinkClass{
+  color:white;
+  text-decoration: none;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
